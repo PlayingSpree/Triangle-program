@@ -2,7 +2,10 @@
 <html>
 <head>
     <link href="style.css" type="text/css" rel="stylesheet">
-    <script src="script.js"></script>
+    <script src="Triangle.js"></script>
+    <script src="Display.js"></script>
+    <script src="Input.js"></script>
+    <script src="Calculation.js"></script>
 </head>
 <body>
 
@@ -16,11 +19,11 @@
         </div>
         <div class="col">
             กรอกตัวเลขเป็นจำนวนเต็มบวกที่ไม่เกิน 1,000,000,000<br>
-            <input type="text"><br>
-            <input type="text"><br>
-            <input type="text"><br>
+            <input type="text" id="input1"><br>
+            <input type="text" id="input2"><br>
+            <input type="text" id="input3"><br>
             <span id="output"></span><br>
-            <button onclick="btnClick">แสดงผลลัพธ์</button>
+            <button onclick="btnClick()">แสดงผลลัพธ์</button>
         </div>
     </div>
 
