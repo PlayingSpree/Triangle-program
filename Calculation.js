@@ -18,7 +18,7 @@ function calculate(input){
    }
    let mid = input[0]
 
-    if(min+mid<=max){
+    if((min+mid)<=max){
         return "ไม่ใช่สามเหลี่ยม"
     }else if(((min*min)+(mid*mid))==(max*max)){
         return "สามเหลี่ยมมุมฉาก"
