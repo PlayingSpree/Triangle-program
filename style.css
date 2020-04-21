@@ -1,0 +1,19 @@
+.container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 600px;
+    height: 800px;
+}
+
+
+.col {
+    width: 300px;
+}
+
+
+input[type=text] {
+    border: 2px solid black;
+}
